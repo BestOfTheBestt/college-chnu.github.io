@@ -34,6 +34,13 @@
     .header {
       text-align: center;
     }
+	
+    .header2 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
 
     .header img {
       width: 100%;
@@ -63,20 +70,45 @@
       margin-bottom: 50px;
     }
 
-    .benefits {
-      margin-top: 50px;
-      text-align: center;
-    }
-
     .footer {
       background-color: #333;
       color: #fff;
       padding: 10px;
       text-align: center;
     }
-
-    .map-container {
-      margin-top: 20px;
+	
+	    .advantages {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .advantage {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+    .advantage-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .advantage-description {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .circle {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      margin-right: 10px;
     }
   </style>
 </head>
@@ -103,16 +135,29 @@
           навички та підготуватися до успішної кар'єри.</p>
         </section>
 
-        <div class="benefits">
-          <h2>Преваги нашого коледжу</h2>
-          <ul>
-            <li>Високоякісна освіта</li>
-            <li>Практичний підхід</li>
-            <li>Студентське життя</li>
-            <li>Кар'єрна підтримка</li>
-          </ul>
-        </div>
-      </div>
+  <div class="header2">Наші переваги</div>
+  <div class="advantages">
+    <div class="advantage">
+      <div class="circle">1</div>
+      <div class="advantage-title">Високоякісна освіта</div>
+      <div class="advantage-description">Фаховий коледж ЧНУ забезпечує навчання на високому рівні, використовуючи сучасні методи і технології. Наші викладачі - це досвідчені фахівці, які допомагають студентам розкрити свій потенціал і досягти успіху.</div>
+    </div>
+    <div class="advantage">
+      <div class="circle">2</div>
+      <div class="advantage-title">Практичний підхід</div>
+      <div class="advantage-description">Ми надаємо студентам можливість отримати практичні навички через стажування, практичні заняття та проєкти, спрямовані на розвиток практичних навичок. Ми підтримуємо активну співпрацю з підприємствами та організаціями, щоб забезпечити нашим студентам реальний досвід роботи відповідно до їх обраної спеціальності.</div>
+    </div>
+    <div class="advantage">
+      <div class="circle">3</div>
+      <div class="advantage-title">Студентський життя</div>
+      <div class="advantage-description">У Фаховому коледжі ЧНУ ми прагнемо створити сприятливу і дружню атмосферу для студентів. Ми пропонуємо різноманітні студентські організації, клуби і заходи, які сприяють особистісному розвитку та розширенню інтересів студентів.</div>
+    </div>
+    <div class="advantage">
+      <div class="circle">4</div>
+      <div class="advantage-title">Кар'єрна підтримка</div>
+      <div class="advantage-description">Ми надаємо кар'єрну підтримку нашим студентам, допомагаючи їм знайти стажування, підготуватися до працевлаштування та розвивати навички, необхідні для успішної кар'єри. Ми підтримуємо зв'язок з випускниками і співпрацюємо з роботодавцями, щоб забезпечити нашим студентам реальні можливості працевлаштування.</div>
+    </div>
+  </div>
 
       <footer class="footer">
         <p>&copy; 2023 Коледж. Прав у вас не має.</p>
