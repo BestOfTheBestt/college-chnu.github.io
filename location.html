@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Розташування - Сайт візитка коледжу</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .background {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .sheet {
+      position: relative;
+      max-width: 90%;
+      width: 800px;
+      max-height: 90%;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .header img {
+      width: 100%;
+      height: auto;
+    }
+
+    .navigation {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .navigation a {
+      margin: 10px;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .content {
+      margin-top: 100px;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .greeting {
+      margin-bottom: 50px;
+    }
+
+    .benefits {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .map-container {
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="background">
+    <div class="sheet">
+      <div class="header">
+        <img src="logo.jpg" alt="Логотип коледжу">
+      </div>
+
+      <div class="navigation">
+        <a href="index.html">Головна</a>
+        <a href="location.html">Розташування</a>
+        <a href="history.html">Історія</a>
+        <a href="specialties.html">Спеціальності</a>
+        <a href="schedule.html">Розклад</a>
+      </div>
+
+      <div class="content">
+        <h2>Розташування коледжу</h2>
+        <p>Наш коледж знаходиться у мальовничому місті Чернівці. Він розташований за адресою вул. Банкова, 1. 
+        Коледж має зручну транспортну розв'язку та забезпечує комфортні умови для навчання та розвитку студентів.</p>
+        <p>Для отримання додаткової інформації про розташування та як доїхати до нашого коледжу, будь ласка, зв'яжіться з нами за телефоном 
+        або напишіть електронного листа.</p>
+		<div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.600842602751!2d25.931230812272897!3d48.29129457114098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4734089997e13f4b%3A0x6e3c3f29a79f3995!2z0LLRg9C70LjRhtGPINCR0LDQvdC60L7QstCwLCAxLCDQp9C10YDQvdGW0LLRhtGWLCDQp9C10YDQvdGW0LLQtdGG0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA1ODAwMA!5e0!3m2!1suk!2sua!4v1687100092308!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+        <p>Телефон: (0372) 55-38-26<br>
+        Електронна пошта: college@chnu.edu.ua</p>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2023 Коледж. Прав у вас не має.</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
